@@ -1,0 +1,99 @@
+body{
+    background: rgba(0, 0, 0, 0.859);
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(233, 234, 235, 0.986);
+    font-size: 17px;
+}
+.heading-5{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+   border-bottom: 2px ridge purple;
+}
+
+@keyframes gradientText {
+    0% { background-position: 0 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+.gradient-text-3{
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #002aff, #1dbfe8, #e81de5, #e81d83, #2df7d9, #e81d1d, #ca1de8, #00baf3, #dd00f3);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradientText 10s linear infinite;
+    text-decoration: none;
+}
+
+
+.gradient-text{
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #002aff, #1dbfe8, #e81de5, #e81d83, #2df7d9, #e81d1d, #ca1de8, #00baf3, #dd00f3);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradientText 10s linear infinite;
+    text-decoration: none;
+}
+.gradient-text2{
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #002aff, #1dbfe8, #e81de5, #e81d83, #2df7d9, #e81d1d, #ca1de8, #00baf3, #dd00f3);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradientText 10s linear infinite;
+    text-decoration: none;
+}
+.main-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  background: linear-gradient(45deg, #002aff, #1dbfe8, #e81de5, #e81d83, #2df7d9, #e81d1d, #ca1de8, #00baf3, #dd00f3);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradientText 10s linear infinite;
+    text-decoration: none;
+}
+
+/* ===============text-Animation-END=================== */
+.item{
+    border: 1px ridge beige;
+    border-radius: 12px;
+}
+.inside-box{
+    margin: 9px;
+}
+h5{
+    color:burlywood ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr{
+    color: rgb(229, 10, 245);
+    
+}
+.news-business{
+    height: 160px;
+}
+ul li{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(233, 234, 235, 0.986);
+    font-size: 17px;
+}
+.item-affect{
+    margin-top: 12px;
+    border-radius: 18px;
+}
+.news_img{
+    width: 110px;
+    height: 80px;
+    border-radius: 14px;
+}

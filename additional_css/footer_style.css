@@ -1,0 +1,29 @@
+.footer{
+    background-color: rgb(53, 32, 53);
+    /* background: rgba(0, 0, 0, 0.3); */
+    /* background:linear-gradient(to bottom right,rgba(51, 32, 145, 0.747), rgba(90, 48, 90, 0.897)); */
+}
+ .link-colour{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(231, 231, 204);
+}
+ .link-colour:hover{
+    color: rgb(207, 46, 159);
+}
+.link-colour_c{
+   
+    color:rgb(231, 231, 204);
+}
+.footer h5{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.footer_img{
+    width: 60px;
+    height: 50px;
+    border-radius: 12px;
+}
+.footer_img:hover{
+    border: 1px ridge white;
+}

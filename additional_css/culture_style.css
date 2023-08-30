@@ -1,0 +1,272 @@
+body{
+    background: rgba(0, 0, 0, 0.859);
+}
+.main{
+    border-radius: 22px;
+   background-color: #1f2122;
+   margin-top: 20px;
+}
+.main-banner {
+    background-image: url(../images/banner-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 380px;
+    border-radius: 23px;
+    padding: 80px 60px;
+  }
+  
+  .main-banner h6 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  
+  .main-banner h4 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+  
+  .main-banner h4 em {
+    font-style: normal;
+    color: #ec6090;
+  }
+  .page-content{
+    margin:10px;
+
+  }
+  .mt{
+    margin-top:20px;
+  }
+  .main-button a {
+    font-size: 14px;
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-button a:hover {
+    background-color: #fff;
+    color: #e75e8d;
+  }
+  
+  .main-border-button a {
+    font-size: 14px;
+    color: #ec6090;
+    background-color: transparent;
+    border: 1px solid #ec6090;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-border-button a:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #e75e8d;
+  }
+  .link-heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+  }
+  h4,h5{
+    color: white;
+    
+  }
+  h3{
+    color: rgb(194, 5, 162);
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(233, 234, 235, 0.986);
+    font-size: 17px;
+}
+  .most-popular {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #1f2122;
+    border-radius: 23px;
+  }
+  
+  .most-popular .item {
+    background-color: #27292a;
+    padding: 30px 15px;
+    border-radius: 23px;
+    margin-bottom: 30px;
+    height: 530px;
+    /* height: 530px; */
+  }
+  
+  .most-popular .item .item {
+    padding: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+    margin-bottom: 0px;
+  }
+  
+  .most-popular .item img {
+    border-radius: 23px;
+  }
+  
+  .most-popular .item h4 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+  }
+  
+  .most-popular .item span {
+    color: #666;
+    display: block;
+    margin-top: 7px;
+    font-weight: 400;
+  }
+  
+  .most-popular .item ul {
+    float: right;
+    margin-top: 20px;
+  }
+  
+  .most-popular .item ul li {
+    text-align: right;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .most-popular .item ul li:first-child i {
+    color: yellow;
+  }
+  
+  .most-popular .item ul li:last-child i {
+    color: #ec6090;
+  }
+  
+  .most-popular .main-button {
+    text-align: center;
+    margin-bottom: -53px;
+  
+  }
+  .text{
+    text-decoration: none;
+  }
+  .heading-section{
+    font-size: 38px;
+    color: #ec6090;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  .most-popular p{
+    color: #666666ec;
+  }
+
+  .details h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px 0px;
+    font-family: serif;
+    color: rgb(207, 225, 241);
+  }
+  
+  .details .content {
+    border-radius: 23px;
+    padding: 30px;
+    background-color: #1f2122;
+  }
+  
+  .details .content .left-info {
+    background-color: #27292a;
+    border-radius: 23px;
+    padding: 30px;
+    margin-bottom: 30px;
+    height: 350px;
+  }
+  
+  .details .content .left-info .left {
+    float: left;
+  }
+  
+  .details .content .left-info h4 {
+    font-size: 15px;
+    display: block;
+  }
+  
+  .details .content .left-info span {
+    color: #666;
+    display: block;
+    margin-top: 7px;
+    font-weight: 400;
+  }
+  
+  .details .content .left-info ul {
+    text-align: right;
+  }
+  
+  .details .content .left-info ul li {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  
+  .details .content .left-info ul li:first-child i {
+    color: yellow;
+  }
+  
+  .details .content .left-info ul li:last-child i {
+    color: #ec6090;
+  }
+  
+  .details .content .right-info {
+    background-color: #27292a;
+    border-radius: 23px;
+    padding: 30px;
+    margin-bottom: 30px;
+    
+  }
+  
+  .details .content .right-info ul li {
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .details .content .right-info ul li i {
+    display: block;
+    margin-bottom: 12px;
+  }
+  
+  .details .content .right-info ul li:first-child i {
+    color: yellow;
+  } 
+  
+  .details .content .right-info ul li i {
+    color: #ec6090;
+  }
+  
+  .details .main-border-button {
+    margin-top: 35px;
+  }
+  
+  .details .main-border-button a {
+    text-align: center;
+    width: 100%;
+  } 

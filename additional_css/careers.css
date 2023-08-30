@@ -1,0 +1,89 @@
+body{
+background: rgba(0, 0, 0, 0.859);
+}
+.main-banner {
+  background-image: url(../images/future-bg.350);
+  background-position: center center;
+  background-size: cover;
+  min-height: 350px;
+
+  padding: 80px 60px;
+}
+.main-banner h6 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.main-banner h4{
+  font-size: 18px;
+  color: #ec6090;
+
+}
+.main-button a {
+  font-size: 14px;
+  color: #fff;
+  background-color: #e75e8d;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-button a:hover {
+  background-color: #fff;
+  color: #e75e8d;
+}
+
+.main-border-button a {
+  font-size: 14px;
+  color: #ec6090;
+  background-color: transparent;
+  border: 1px solid #ec6090;
+  padding: 212px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-border-button a:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: #e75e8d;
+}
+.link-heading{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(233, 234, 235, 0.986);
+  font-size: 17px;
+}
+
+h3{
+  font-family: 'Courier New', Courier, monospace;
+  color: #ec6090;
+  font-weight: bold;
+  font-size: 37px;
+
+}
+h4{
+  font-family: monospace;
+  color: rgba(161, 44, 161, 0.959);
+  font-style: italic;
+}
+h2{
+  font-weight: bold;
+  font-family: cursive;
+}

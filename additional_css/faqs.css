@@ -1,0 +1,32 @@
+body{
+    background: rgba(0, 0, 0, 0.859);
+  }
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(233, 234, 235, 0.986);
+    font-size: 17px;
+}
+
+.input {
+    color: #8707ff;
+    border: 2px solid #8707ff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+   
+   }
+   
+   .input:active {
+    box-shadow: 2px 2px 15px #8707ff inset;
+   }
+   .main{
+    background-color: rgba(22, 22, 22, 0.699);
+border-radius: 12px;
+   }
+   h2{
+    background: -webkit-linear-gradient(#553c9a, #e75e8d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+   }
